@@ -1,74 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Children's-author</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Children's Author</title>
 </head>
 
 <body>
 <header class="navbar">
-<div class="navbar__logo">
-    <img src="image/header_logo_amanda_swan.webp" alt="Logo Header Amanda Swan"/>
-</div>
-<nav class="navbar__menu">
-<a href="#" class="navbar__menu-item">About Author</a>
-<a href="#" class="navbar__menu-item">Awards</a>
-<a href="#" class="navbar__menu-item">Biography</a>
-<a href="#" class="navbar__menu-item">Books</a>
-<a href="#" class="navbar__menu-item">Online Reading</a>
-<a href="#" class="navbar__menu-item">Events</a>
-<a href="#" class="navbar__menu-item">Contacts</a>
-</nav>
-    <div class="navbar_social">
+    <div class="navbar__logo">
+        <img src="all_logos_and_images_for_children/logo_amanda_swan.webp" alt="Logo Header Amanda Swan"/>
+    </div>
+    <nav class="navbar__menu">
+        <a href="#" class="navbar__menu-item">About Author</a>
+        <a href="#" class="navbar__menu-item">Awards</a>
+        <a href="#" class="navbar__menu-item">Biography</a>
+        <a href="#" class="navbar__menu-item">Books</a>
+        <a href="#" class="navbar__menu-item">Online Reading</a>
+        <a href="#" class="navbar__menu-item">Events</a>
+        <a href="#" class="navbar__menu-item">Contacts</a>
+    </nav>
+    <div class="navbar__social">
         <a href="#" class="navbar__social-icon navbar__social-icon--instagram">
             <img src="instagram-icon.png" alt="Instagram">
-            <!-- add svg icons -->
         </a>
         <a href="#" class="navbar__social-icon navbar__social-icon--facebook">
             <img src="facebook-icon.png" alt="Facebook">
-            <!-- add svg icons -->
         </a>
         <a href="#" class="navbar__social-icon navbar__social-icon--twitter">
-            <img src="facebook-icon.png" alt="Twitter">
-            <!-- add svg icons -->
+            <img src="twitter-icon.png" alt="Twitter">
         </a>
         <a href="#" class="navbar__social-icon navbar__social-icon--youtube">
-            <img src="facebook-icon.png" alt="Youtube">
-            <!-- add svg icons -->
+            <img src="youtube-icon.png" alt="YouTube">
         </a>
     </div>
-    </header>
+</header>
 
 <main class="hero">
     <section class="introduction">
-    <p class="introduction_text">children's author</p>
-    <h1 class="page_title">Welcome to the<br>Magical World</h1>
+        <p class="introduction__text">Children's Author</p>
+        <h1 class="page__title">Welcome to the<br>Magical World</h1>
     </section>
 
     <section class="page">
-<div class="page_content">Dive into a realm of fantasy where every page<br>comes alive through the magic of storytelling.</div>
+        <div class="page__content">
+            Dive into a realm of fantasy where every page<br>comes alive through the magic of storytelling.
+        </div>
     </section>
 
     <section class="book">
-        <img src="book__img src=" src="book-image.jpg" alt="Book Icon">
-        <!-- add svg icons -->
+        <img class="book__img" src="book-image.jpg" alt="Book Icon">
     </section>
 
     <section class="amanda">
-        <img src="amanda__img src=" src=amanda-image.png" alt="Amanda Photo">
+        <img class="amanda__img" src="amanda-image.png" alt="Amanda Photo">
     </section>
 
     <section class="additional">
-<div class="page_additional">From whimsical tales of enchanted forests to exciting<br>adventures across the cosmos, Amanda Swan brings joy and<br>wonder to readers of all ages.</div>
+        <div class="page__additional">
+            From whimsical tales of enchanted forests to exciting<br>adventures across the cosmos, Amanda Swan brings
+            joy and<br>wonder to readers of all ages.
+        </div>
     </section>
 
     <section class="cta">
-        <a class="cta_button" href="#">Latest books</a>
+        <a class="cta__button" href="#">Latest books</a>
     </section>
-
 </main>
-</body>
 
+<section class="awards">
+    <div class="awards__container">
+        <p class="awards__text">Awards</p>
+        <h2 class="awards__title">The Awards Amanda Swan Has Received</h2>
+        <p class="awards__subtitle">Amanda is among the best-selling children's writers in the USA.</p>
+
+        <div class="awards__list">
+            <!-- Award Item 1 -->
+            <div class="award__card">
+                <div class="award__card-icon">
+                    <img src="logo_fox-award.webp" alt="Children’s Literature Excellence Award">
+                </div>
+                <h3 class="award__card-title">Children’s Literature Excellence Award (2011)</h3>
+                <p class="award__card-description">
+                    This award recognizes outstanding contributions to children's literature.
+                </p>
+                <a href="#" class="award__card-link">Learn More</a>
+            </div>
+            <!-- Award Item 2 -->
+            <div class="award__card">
+                <div class="award__card-icon">
+                    <img src="logo_rabbit-award.webp" alt="Young Readers’ Choice Medal">
+                </div>
+                <h3 class="award__card-title">Young Readers’ Choice Medal (2015)</h3>
+                <p class="award__card-description">
+                    This medal honors books that have captured the imaginations of children.
+                </p>
+                <a href="#" class="award__card-link">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
 </html>

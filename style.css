@@ -1,0 +1,91 @@
+/* General Rule */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4ead6;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.navbar__logo img {
+    width: 119px;
+    height: auto;
+}
+
+/* Navigation Links */
+.navbar__menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar__menu-item {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar__menu-item a {
+    text-decoration: none;
+    color: #5b4822; /* Brownish text color */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar__menu-item a:hover {
+    color: #b76e21; /* Hover effect with warm brown */
+}
+
+/* Social Media Icons */
+.navbar__social {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar__social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #6d7c3f; /* Olive green */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar__social-icon img {
+    width: 18px;
+    height: 18px;
+}
+
+.navbar__social-icon:hover {
+    background-color: #4f5d29; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .navbar__menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .navbar__social {
+        margin-top: 10px;
+    }
+}

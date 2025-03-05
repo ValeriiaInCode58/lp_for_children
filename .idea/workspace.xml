@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e1f13e8-57f5-433d-9511-c5f5db771785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/all_logos_and_images_for_children/header_logo_amanda_swan.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_logos_and_images_for_children/logo_amanda_swan.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_logos_and_images_for_children/logo_fox-award.webp.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_logos_and_images_for_children/logo_rabbit-award.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +47,20 @@
     "RunOnceActivity.git.unshallow": "true",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Admin/WebstormProjects/untitled/all_logos_and_images_for_children",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\untitled\all_logos_and_images_for_children" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\WebstormProjects\untitled\all_logos_and_images_for_children" />
     </key>
@@ -80,6 +87,9 @@
       <workItem from="1741072132988" duration="2458000" />
       <workItem from="1741113345031" duration="25000" />
       <workItem from="1741113406930" duration="4866000" />
+      <workItem from="1741119583548" duration="3672000" />
+      <workItem from="1741153206897" duration="14445000" />
+      <workItem from="1741207413205" duration="2317000" />
     </task>
     <servers />
   </component>
