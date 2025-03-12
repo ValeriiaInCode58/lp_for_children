@@ -24,11 +24,11 @@
 }
 
 /* Navigation Links */
-.navbar__menu {
+.navbar__menu
     display: flex;
     gap: 20px;
     list-style: none;
-}
+
 
 .navbar__menu-item {
     font-size: 16px;
